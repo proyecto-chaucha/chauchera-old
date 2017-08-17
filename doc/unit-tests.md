@@ -19,7 +19,7 @@ implement new BOOST_AUTO_TEST_SUITE sections (the makefiles are
 set up to add test/*.cpp to test_chaucha automatically).
 
 
-Compiling/running Litecoin-Qt unit tests
+Compiling/running Chaucha-Qt unit tests
 ---------------------------------------
 
 Bitcoin-Qt unit tests are in the src/qt/test/ directory; they

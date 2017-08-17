@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Litecoin</source>
-        <translation>Σχετικά με το Litecoin</translation>
+        <source>About Chaucha</source>
+        <translation>Σχετικά με το Chaucha</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Litecoin&lt;/b&gt; version</source>
-        <translation>Έκδοση Litecoin</translation>
+        <source>&lt;b&gt;Chaucha&lt;/b&gt; version</source>
+        <translation>Έκδοση Chaucha</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Litecoin developers</source>
-        <translation>Οι Litecoin προγραμματιστές </translation>
+        <source>The Chaucha developers</source>
+        <translation>Οι Chaucha προγραμματιστές </translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Chaucha addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Αυτές είναι οι Chaucha διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Litecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Sign a message to prove you own a Chaucha address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Chaucha</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Chaucha address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Chaucha</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Chaucha addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτές είναι οι Chaucha διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -276,8 +276,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your chauchas from being stolen by malware infecting your computer.</source>
-        <translation>Το Litecoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα chauchas σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
+        <source>Chaucha will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your chauchas from being stolen by malware infecting your computer.</source>
+        <translation>Το Chaucha θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα chauchas σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Litecoin</source>
-        <translation>Εμφάνισε πληροφορίες σχετικά με το Litecoin</translation>
+        <source>Show information about Chaucha</source>
+        <translation>Εμφάνισε πληροφορίες σχετικά με το Chaucha</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Litecoin address</source>
+        <source>Send coins to a Chaucha address</source>
         <translation>Στείλε νομισματα σε μια διεύθυνση chaucha</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Επεργασία  ρυθμισεων επιλογών για το Litecoin</translation>
+        <source>Modify configuration options for Chaucha</source>
+        <translation>Επεργασία  ρυθμισεων επιλογών για το Chaucha</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Chaucha</source>
+        <translation>Chaucha</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Litecoin</source>
-        <translation>&amp;Σχετικα:Litecoin</translation>
+        <source>&amp;About Chaucha</source>
+        <translation>&amp;Σχετικα:Chaucha</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <source>Sign messages with your Chaucha addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Verify messages to ensure they were signed with specified Chaucha addresses</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Chaucha</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Litecoin client</source>
-        <translation>Πελάτης Litecoin</translation>
+        <source>Chaucha client</source>
+        <translation>Πελάτης Chaucha</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Litecoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+        <source>%n active connection(s) to Chaucha network</source>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Chaucha</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -659,8 +659,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση Litecoin ή ακατάλληλη παραμέτρο URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Chaucha address or malformed URI parameters.</source>
+        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση Chaucha ή ακατάλληλη παραμέτρο URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -674,8 +674,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το Litecoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
+        <source>A fatal error occurred. Chaucha can no longer continue safely and will quit.</source>
+        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το Chaucha δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
     </message>
 </context>
 <context>
@@ -740,8 +740,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη Litecoin διεύθυνση.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Chaucha address.</source>
+        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη Chaucha διεύθυνση.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -759,7 +759,7 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Litecoin-Qt</source>
+        <source>Chaucha-Qt</source>
         <translation>chaucha-qt</translation>
     </message>
     <message>
@@ -822,12 +822,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Αυτόματη εκκίνηση του Litecoin μετά την εισαγωγή στο σύστημα</translation>
+        <source>Automatically start Chaucha after logging in to the system.</source>
+        <translation>Αυτόματη εκκίνηση του Chaucha μετά την εισαγωγή στο σύστημα</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Litecoin on system login</source>
+        <source>&amp;Start Chaucha on system login</source>
         <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
     </message>
     <message>
@@ -847,8 +847,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών Litecoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the Chaucha client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτόματο άνοιγμα των θυρών Chaucha στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Σύνδεση στο Litecoin δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
+        <source>Connect to the Chaucha network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Σύνδεση στο Chaucha δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,8 +932,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chaucha.</source>
+        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Chaucha.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -947,8 +947,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Litecoin addresses in the transaction list or not.</source>
-        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις Litecoin στη λίστα συναλλαγών.</translation>
+        <source>Whether to show Chaucha addresses in the transaction list or not.</source>
+        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις Chaucha στη λίστα συναλλαγών.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -999,8 +999,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Litecoin.</source>
-        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Litecoin.</translation>
+        <source>This setting will take effect after restarting Chaucha.</source>
+        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Chaucha.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1018,8 +1018,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Litecoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chaucha network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Chaucha μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1073,7 +1073,7 @@ Address: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start chaucha: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του Litecoin: click-to-pay handler</translation>
+        <translation>Δεν είναι δυνατή η εκκίνηση του Chaucha: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1222,8 +1222,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
-        <translation>Εμφανιση του Litecoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Litecoin γραμμής εντολών.</translation>
+        <source>Show the Chaucha-Qt help message to get a list with possible Chaucha command-line options.</source>
+        <translation>Εμφανιση του Chaucha-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Chaucha γραμμής εντολών.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,13 +1242,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Litecoin - Debug window</source>
-        <translation>Litecoin - Παράθυρο αποσφαλμάτωσης</translation>
+        <source>Chaucha - Debug window</source>
+        <translation>Chaucha - Παράθυρο αποσφαλμάτωσης</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Chaucha Core</source>
+        <translation>Chaucha Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1257,7 +1257,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Chaucha debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
     </message>
     <message>
@@ -1267,8 +1267,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Καλώς ήρθατε στην Litecoin RPC κονσόλα.</translation>
+        <source>Welcome to the Chaucha RPC console.</source>
+        <translation>Καλώς ήρθατε στην Chaucha RPC κονσόλα.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Litecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Chaucha address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Εισάγετε μια διεύθυνση Chaucha (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1475,7 +1475,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Litecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Εισάγετε μια διεύθυνση Chaucha (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Sign the message to prove you own this Chaucha address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Chaucha</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,12 +1548,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Litecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Εισάγετε μια διεύθυνση Chaucha (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Litecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Chaucha address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Chaucha</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,8 +1568,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Litecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Chaucha address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Εισάγετε μια διεύθυνση Chaucha (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,8 +1578,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Litecoin signature</source>
-        <translation>Εισαγωγή υπογραφής Litecoin</translation>
+        <source>Enter Chaucha signature</source>
+        <translation>Εισαγωγή υπογραφής Chaucha</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,8 +1652,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Litecoin developers</source>
-        <translation>Οι Litecoin προγραμματιστές </translation>
+        <source>The Chaucha developers</source>
+        <translation>Οι Chaucha προγραμματιστές </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2190,8 +2190,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Litecoin version</source>
-        <translation>Έκδοση Litecoin</translation>
+        <source>Chaucha version</source>
+        <translation>Έκδοση Chaucha</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2309,7 +2309,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Chaucha Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
@@ -2320,7 +2320,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Chaucha Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2335,8 +2335,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
-        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Litecoin να είναι ήδη ενεργό.</translation>
+        <source>Cannot obtain a lock on data directory %s. Chaucha is probably already running.</source>
+        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Chaucha να είναι ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2381,8 +2381,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το Litecoin.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Chaucha will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το Chaucha.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2631,8 +2631,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Litecoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>SSL options: (see the Chaucha Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Chaucha Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2821,13 +2821,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Litecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Chaucha</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Chaucha</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
-        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του Litecoin</translation>
+        <source>Wallet needed to be rewritten: restart Chaucha to complete</source>
+        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του Chaucha</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2886,8 +2886,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
-        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το Litecoin είναι πιθανώς ήδη ενεργό.</translation>
+        <source>Unable to bind to %s on this computer. Chaucha is probably already running.</source>
+        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το Chaucha είναι πιθανώς ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+64"/>

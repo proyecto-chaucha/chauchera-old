@@ -88,16 +88,16 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 **Perform Mac build:**
 
   OSX binaries are created on a dedicated 32-bit, OSX 10.6.8 machine.
-  Litecoin 0.8.x is built with MacPorts.  0.9.x will be Homebrew only.
+  Chaucha 0.8.x is built with MacPorts.  0.9.x will be Homebrew only.
 
 	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 share/qt/clean_mac_info_plist.py
-	python2.7 contrib/macdeploy/macdeployqtplus Litecoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+	python2.7 contrib/macdeploy/macdeployqtplus Chaucha-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
- Build output expected: Litecoin-Qt.dmg
+ Build output expected: Chaucha-Qt.dmg
 
 ###Next steps:
 
