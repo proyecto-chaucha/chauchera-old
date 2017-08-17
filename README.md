@@ -6,7 +6,7 @@ Wallet oficial del Proyecto Chaucha.
 
 ## ¿Qué es esto?
 
-Chauchera es un cliente modificado desde el código fuente de [Litecoin](https://litecoin.org/), que permite a las personas comunicarse con la red del proyecto Chaucha.
+Chauchera es un cliente modificado desde el código fuente de [Litecoin](https://chaucha.org/), que permite a las personas comunicarse con la red del proyecto Chaucha.
 
 Con la Chauchera podrás enviar y recibir Chauchas (CHA), que es la criptomoneda utilizada dentro de la red.
 

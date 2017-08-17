@@ -1,4 +1,4 @@
-Mac OS X litecoind build instructions
+Mac OS X chauchad build instructions
 ====================================
 
 Authors
@@ -72,14 +72,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `litecoind`
+### Building `chauchad`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:litecoin-project/litecoin.git litecoin
-        cd litecoin
+        git clone git@github.com:chaucha-project/chaucha.git chaucha
+        cd chaucha
 
-2.  Build litecoind:
+2.  Build chauchad:
 
         cd src
         make -f makefile.osx
@@ -107,12 +107,12 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-### Building `litecoind`
+### Building `chauchad`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/litecoin-project/litecoin.git
-        cd litecoin
+        git clone https://github.com/chaucha-project/chaucha.git
+        cd chaucha
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -122,7 +122,7 @@ Rerunning "openssl version" should now return the correct version.
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-3.  Build litecoind:
+3.  Build chauchad:
 
         cd src
         make -f makefile.osx
@@ -134,8 +134,8 @@ Rerunning "openssl version" should now return the correct version.
 Creating a release build
 ------------------------
 
-A litecoind binary is not included in the Litecoin-Qt.app bundle. You can ignore
-this section if you are building `litecoind` for your own use.
+A chauchad binary is not included in the Litecoin-Qt.app bundle. You can ignore
+this section if you are building `chauchad` for your own use.
 
 If you are building `litecond` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -166,20 +166,20 @@ Once dependencies are compiled, creating `Litecoin-Qt.app` is easy:
 Running
 -------
 
-It's now available at `./litecoind`, provided that you are still in the `src`
+It's now available at `./chauchad`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./litecoind` to get the filename where it should be put, or just try these
+Run `./chauchad` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+    echo -e "rpcuser=chaucharpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/chaucha.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/chaucha.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./litecoind --help  # for a list of command-line options.
-    ./litecoind -daemon # to start the litecoin daemon.
-    ./litecoind help    # When the daemon is running, to get a list of RPC commands
+    ./chauchad --help  # for a list of command-line options.
+    ./chauchad -daemon # to start the chaucha daemon.
+    ./chauchad help    # When the daemon is running, to get a list of RPC commands

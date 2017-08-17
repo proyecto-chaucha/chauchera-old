@@ -4575,7 +4575,7 @@ void static LitecoinMiner(CWallet *pwallet)
 {
     printf("LitecoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("litecoin-miner");
+    RenameThread("chaucha-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
