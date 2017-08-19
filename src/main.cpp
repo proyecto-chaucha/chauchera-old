@@ -1089,6 +1089,10 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 10 * COIN;
 
+    //PREMINE 5000 CHA
+    if (nHeight == 1)
+        nSubsidy = 5000 * COIN;
+
     // Recompensa a la mitad cada 2 1051200 bloques
     nSubsidy >>= (nHeight / 1051200);
 

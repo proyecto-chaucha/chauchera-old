@@ -16,6 +16,7 @@ En Chile es común llamarle "chauchera" a un pequeño bolso utilizado para almac
 
 ## Información de la Red Chaucha:
 
+* **Pre-minado:** 5000 CHA (Block #1)
 * **Recompensa por bloque minado:** 10 CHA (dividido a la mitad cada 2 años)
 * **Tiempo mínimo entre bloques:** 1 Minuto
 * **Algoritmo:** Scrypt
