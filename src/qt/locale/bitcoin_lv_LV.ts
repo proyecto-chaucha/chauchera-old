@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Chaucha developers</source>
+        <source>Proyecto Chaucha developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1644,7 +1644,7 @@ Adrese: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Chaucha developers</source>
+        <source>Proyecto Chaucha developers</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -37,7 +37,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+0"/>
-        <source>The Chaucha developers</source>
+        <source>Proyecto Chaucha developers</source>
         <translation>Los programadores Chaucha</translation>
     </message>
 </context>
@@ -1652,7 +1652,7 @@ Dirección: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Chaucha developers</source>
+        <source>Proyecto Chaucha developers</source>
         <translation>Los programadores Chaucha</translation>
     </message>
     <message>
