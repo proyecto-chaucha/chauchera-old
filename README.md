@@ -6,7 +6,7 @@ Wallet oficial del Proyecto Chaucha.
 
 ## ¿Qué es esto?
 
-Chauchera es un cliente modificado desde el código fuente de [Chaucha](https://chaucha.org/), que permite a las personas comunicarse con la red del proyecto Chaucha.
+Chauchera es un cliente modificado desde el código fuente de [Litecoin](https://litecoin.org/), que permite a las personas comunicarse con la red del proyecto Chaucha.
 
 Con la Chauchera podrás enviar y recibir Chauchas (CHA), que es la criptomoneda utilizada dentro de la red.
 
@@ -16,8 +16,8 @@ En Chile es común llamarle "chauchera" a un pequeño bolso utilizado para almac
 
 ## Información de la Red Chaucha:
 
-* **Recompensa por bloque minado:** 10 CHA
-* **Tiempo mínimo entre bloques:** 2.5 Minutos
+* **Recompensa por bloque minado:** 10 CHA (dividido a la mitad cada 2 años)
+* **Tiempo mínimo entre bloques:** 1 Minuto
 * **Algoritmo:** Scrypt
-* **Puertos:** 9969 (RPC) y 9970 (P2P)
+* **Puertos:** 21662 (RPC) y 21663 (P2P)
 
