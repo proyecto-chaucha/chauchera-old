@@ -23,6 +23,22 @@ OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
 
+# These are the homebrew paths. Change them if needed
+OPENSSL_INCLUDE_PATH = "/usr/local/opt/openssl/include"
+OPENSSL_LIB_PATH = "/usr/local/opt/openssl/lib"
+BOOST_INCLUDE_PATH = "/usr/local/opt/boost/include"
+BOOST_LIB_PATH = "/usr/local/opt/boost/lib"
+BDB_INCLUDE_PATH = "/usr/local/opt/berkeley-db@4/include"
+BDB_LIB_PATH = "/usr/local/opt/berkeley-db@4/lib"
+MINIUPNPC_INCLUDE_PATH = "/usr/local/opt/miniupnpc/include"
+MINIUPNPC_LIB_PATH = "/usr/local/opt/miniupnpc/lib"
+
+# Options
+RELEASE = 1
+USE_UPNP = 1
+USE_IPV6 = 1
+USE_QRCODE = 0
+
 # use: qmake "RELEASE=1"
 contains(RELEASE, 1) {
     # Mac: compile for maximum compatibility (10.5, 32-bit)
@@ -443,3 +459,6 @@ contains(RELEASE, 1) {
 }
 
 system($$QMAKE_LRELEASE -silent $$TRANSLATIONS)
+
+# If you have questions about Why chaucha do this or that
+# different from other coins. The answer to all questions is: pico.

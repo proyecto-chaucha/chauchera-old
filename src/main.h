@@ -52,7 +52,7 @@ static const int64 DUST_SOFT_LIMIT = 100000; // 0.001 CHA
 /** Dust Hard Limit, ignored as wallet inputs (mininput default) */
 static const int64 DUST_HARD_LIMIT = 1000;   // 0.00001 CHA mininput
 /** No amount larger than this (in satoshi) is valid */
-static const int64 MAX_MONEY = 123456789 * COIN;
+static const int64 MAX_MONEY = 123456789 * COIN; // Why this number? Heellxz said PICO!.
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
 static const int COINBASE_MATURITY = 20;
@@ -448,7 +448,7 @@ public:
 
     std::string ToString() const
     {
-        return strprintf("CTxOut(nValue=%"PRI64d".%08"PRI64d", scriptPubKey=%s)", nValue / COIN, nValue % COIN, scriptPubKey.ToString().substr(0,30).c_str());
+        return strprintf("CTxOut(nValue=%" PRI64d".%08" PRI64d", scriptPubKey=%s)", nValue / COIN, nValue % COIN, scriptPubKey.ToString().substr(0,30).c_str());
     }
 
     void print() const
@@ -649,7 +649,7 @@ void UpdateCoins(const CTransaction& tx, CValidationState &state, CCoinsViewCach
     std::string ToString() const
     {
         std::string str;
-        str += strprintf("CTransaction(hash=%s, ver=%d, vin.size=%"PRIszu", vout.size=%"PRIszu", nLockTime=%u)\n",
+        str += strprintf("CTransaction(hash=%s, ver=%d, vin.size=%" PRIszu", vout.size=%" PRIszu", nLockTime=%u)\n",
             GetHash().ToString().c_str(),
             nVersion,
             vin.size(),
@@ -1500,7 +1500,7 @@ public:
 
     void print() const
     {
-        printf("CBlock(hash=%s, input=%s, PoW=%s, ver=%d, hashPrevBlock=%s, hashMerkleRoot=%s, nTime=%u, nBits=%08x, nNonce=%u, vtx=%"PRIszu")\n",
+        printf("CBlock(hash=%s, input=%s, PoW=%s, ver=%d, hashPrevBlock=%s, hashMerkleRoot=%s, nTime=%u, nBits=%08x, nNonce=%u, vtx=%" PRIszu")\n",
             GetHash().ToString().c_str(),
             HexStr(BEGIN(nVersion),BEGIN(nVersion)+80,false).c_str(),
             GetPoWHash().ToString().c_str(),

@@ -1066,7 +1066,12 @@ void ThreadMapPort()
 #else
     /* miniupnpc 1.6 */
     int error = 0;
-    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, &error);
+    /*
+     * upnpDiscover(int delay, const char * multicastif,
+             const char * minissdpdsock, int localport,
+             int ipv6, unsigned char ttl, int * error);
+    */
+    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, 3600, &error);
 #endif
 
     struct UPNPUrls urls;
@@ -1311,7 +1316,7 @@ void DumpAddresses()
     CAddrDB adb;
     adb.Write(addrman);
 
-    printf("Flushed %d addresses to peers.dat  %"PRI64d"ms\n",
+    printf("Flushed %d addresses to peers.dat  %" PRI64d"ms\n",
            addrman.size(), GetTimeMillis() - nStart);
 }
 
