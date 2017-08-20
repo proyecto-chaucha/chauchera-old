@@ -23,15 +23,6 @@ OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
 
-# These are the homebrew paths. Change them if needed
-OPENSSL_INCLUDE_PATH = "/usr/local/opt/openssl/include"
-OPENSSL_LIB_PATH = "/usr/local/opt/openssl/lib"
-BOOST_INCLUDE_PATH = "/usr/local/opt/boost/include"
-BOOST_LIB_PATH = "/usr/local/opt/boost/lib"
-BDB_INCLUDE_PATH = "/usr/local/opt/berkeley-db@4/include"
-BDB_LIB_PATH = "/usr/local/opt/berkeley-db@4/lib"
-MINIUPNPC_INCLUDE_PATH = "/usr/local/opt/miniupnpc/include"
-MINIUPNPC_LIB_PATH = "/usr/local/opt/miniupnpc/lib"
 
 # Options
 RELEASE = 1
