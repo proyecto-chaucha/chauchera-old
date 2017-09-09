@@ -1,0 +1,9 @@
+Building Chaucha
+
+See doc/readme-qt.rst for instructions on building Chaucha-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Chaucha.
+
+See doc/build-*.txt for instructions on building chauchad,
+the intended-for-services, no-graphical-interface, reference
+implementation of Chaucha.
