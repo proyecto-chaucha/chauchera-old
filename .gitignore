@@ -73,7 +73,6 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
 chaucha-qt
 Chaucha-Qt.app
 
@@ -104,7 +103,6 @@ win32-build
 qa/pull-tester/tests_config.py
 qa/cache/*
 
-!src/leveldb*/Makefile
 
 /doc/doxygen/
 
@@ -139,10 +137,8 @@ object_script.*.Debug
 moc_*.cpp
 moc_*.h
 qrc_*.cpp
-ui_*.h
 *.qmlc
 *.jsc
-Makefile*
 *build-*
 
 
