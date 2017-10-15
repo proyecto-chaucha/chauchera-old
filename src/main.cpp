@@ -1088,10 +1088,8 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
 
-    //REDUCCION DE INFLACION (BLOQUE 2834 HASTA EL INFINITO)
-    int64 nSubsidy = (50000/nHeight + 10) * COIN;
-
     /*
+
     PREMINE 50000 CHA
     if (nHeight == 1)
         nSubsidy = 50000 * COIN;
@@ -1100,7 +1098,14 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 10 * COIN;
 
     nSubsidy >>= (nHeight / 1051200);
+
+    (BLOQUE 2834 HASTA EL 50000)
+    int64 nSubsidy = (50000/nHeight + 10) * COIN;
     */
+
+    //50000 AL INFINITO
+    int64 nSubsidy = 10 * COIN;
+
     return nSubsidy + nFees;
 }
 
