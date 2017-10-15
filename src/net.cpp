@@ -1173,12 +1173,16 @@ void MapPort(bool)
 static const char *strMainNetDNSSeed[][2] = {
     {"pool.chaucha.cl", "pool.chaucha.cl"},
     {"explorer.chaucha.cl", "explorer.chaucha.cl"},
+    {"dns1.chaucha.cl", "dns1.chaucha.cl"},
+    {"dns2.chaucha.cl", "dns2.chaucha.cl"},
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
     {"pool.chaucha.cl", "pool.chaucha.cl"},
     {"explorer.chaucha.cl", "explorer.chaucha.cl"},
+    {"dns1.chaucha.cl", "dns1.chaucha.cl"},
+    {"dns2.chaucha.cl", "dns2.chaucha.cl"},
     {NULL, NULL}
 };
 
