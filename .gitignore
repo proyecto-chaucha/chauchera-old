@@ -139,8 +139,6 @@ moc_*.h
 qrc_*.cpp
 *.qmlc
 *.jsc
-*build-*
-
 
 # Qt unit tests
 target_wrapper.*
