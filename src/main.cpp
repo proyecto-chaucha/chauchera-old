@@ -1097,14 +1097,15 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     DESDE EL BLOQUE 1 AL 2833
     int64 nSubsidy = 10 * COIN;
 
-    nSubsidy >>= (nHeight / 1051200);
-
     (BLOQUE 2834 HASTA EL 50000)
     50000 AL INFINITO
     int64 nSubsidy = 10 * COIN;
     */
     
     int64 nSubsidy = (50000/nHeight + 10) * COIN;
+
+    // Halving cada 2 años
+    nSubsidy >>= (nHeight / 1051200);
 
     return nSubsidy + nFees;
 }
