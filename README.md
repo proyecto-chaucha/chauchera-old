@@ -34,10 +34,7 @@ En Chile es común llamarle "*chauchera*" a un pequeño bolso utilizado para alm
 [https://gitlab.com/chaucha/chauchera](https://gitlab.com/chaucha/chauchera)
 
 ## ¿Dónde me puedo descargar los clientes?
-En la sección releases de Github. [https://github.com/proyecto-chaucha/chauchera/releases/latest](https://github.com/proyecto-chaucha/chauchera/releases/latest)
+En la sección releases de Github. 
 
-## Descargas
-- [Cliente MacOS](https://github.com/proyecto-chaucha/chauchera/releases/download/1.0/chaucha-qt_1.0.0-macos.zip)
-- [Cliente Linux](https://github.com/proyecto-chaucha/chauchera/releases/download/1.0/chaucha-qt_1.0.0-linux64.0)
-- [Cliente Windows](https://github.com/proyecto-chaucha/chauchera/releases/download/1.0/chaucha-qt_1.0.0-win64.exe)
-- [Código Fuente](https://gitlab.com/chaucha/chauchera/tags)
+- [Cliente](https://github.com/proyecto-chaucha/chauchera/releases/latest)
+- [Código Fuente](https://github.com/proyecto-chaucha/chauchera/archive/master.zip)
