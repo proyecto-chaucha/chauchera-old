@@ -1051,28 +1051,18 @@ void ThreadMapPort()
     const char * minissdpdpath = 0;
     struct UPNPDev * devlist = 0;
     char lanaddr[64];
-    int delay = 2000;
-    int localport = 0;
-    int ipv6 = 0;
 
 #ifndef UPNPDISCOVER_SUCCESS
     /* miniupnpc 1.5 */
-    devlist = upnpDiscover(delay, multicastif, minissdpdpath, 0);
-#else
+    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0);
+#elif MINIUPNPC_API_VERSION < 14
     /* miniupnpc 1.6 */
     int error = 0;
-
-    #ifdef __APPLE__
-        /*
-         * upnpDiscover(int delay, const char * multicastif,
-                 const char * minissdpdsock, int localport,
-                 int ipv6, unsigned char ttl, int * error);
-        */
-        unsigned char ttl = 2;
-        devlist = upnpDiscover(delay, multicastif, minissdpdpath, localport, ipv6, ttl, &error);
-    #else
-        devlist = upnpDiscover(delay, multicastif, minissdpdpath, localport, ipv6, &error);
-    #endif
+    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, &error);
+#else
+    /* miniupnpc 1.9.20150730 */
+    int error = 0;
+    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, 2, &error);
 #endif
 
     struct UPNPUrls urls;
